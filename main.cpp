@@ -29,12 +29,18 @@ int main() {
 
     ifstream archivobase("dataset.txt");
         cout<<" "<<endl;
+    cout << "\n========================================" << endl;
+    cout << "       BIEVENIDO A ALGOTS         " << endl;
+    cout << "========================================" << endl;
+    cout << "por favor guarde el archivo ´dataset.txt´ en cmake- build antes de correr el codigo"<<endl;
+    cout<<" "<<endl;
      if (!archivobase.is_open())
-     {cout<<"No se abrio la base de datos de palabras, por favor revise el nombre del documento y reintente"<< endl;
+     {cout<<"No se abrio la base de datos ´dataset´, por favor revise si guardo el archivo"<< endl;
          return 1;
      }
         else cout <<"Se abrio la base de datos y se va a mezclar para construir una nueva como proveedor para algoritmos"<< endl;
-        cout<<" "<<endl;
+
+    cout<<" "<<endl;
 
     vector<string> TodasPalabras;
         //Lista vacia para guardar todas las palabras
@@ -52,7 +58,7 @@ int main() {
     }
     archivobase.close(); //leí que era una buena practica cerrar el archivo.
 
-    cout <<"El total de palabras leidas es: "<< TodasPalabras.size()<<endl;
+    cout <<"El total de palabras leidas desde la base de datos es: "<< TodasPalabras.size()<<endl;
     cout <<" "<<endl;
 
             //Ahora voy a mezclar la lista para tener mi nueva base de datos que voy a utilizar en los algoritmo
@@ -80,7 +86,7 @@ int main() {
 
             destino.close();
 
-
+    cout <<"LOs resultados de cada algoritmo después de organizar la base de datos es:"<<endl;
 
            //-------------------QUICKSORTT-------------------------------
 
@@ -201,8 +207,11 @@ cout << "QuickSort | " << tiempoquick.count() << " | " << memQuick / 1024 << end
 cout << "HeapSort  | " << tiempoheap.count()  << " | " << memHeap  / 1024 << endl;
 cout << "AVL       | " << tiempoAVL.count()   << " | " << memAVL   / 1024 << endl;
 cout << "========================================" << endl;
-
-
+cout << " "<< endl;
+    cout << " "<< endl;
+    cout << " "<< endl;
+    cout << " "<< endl;
+cout <<"hecho por jerónimo y mateo en medellín"<<endl;
 
 
 
