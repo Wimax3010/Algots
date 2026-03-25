@@ -122,7 +122,7 @@ int main() {
             auto inicioheap = chrono::high_resolution_clock::now();
                 //foto tiempo antes de ordenar
             heapsort(datosheap);
-                /*llama al algoritmo - heap solo recibe el vector, no  necesita indices porque todo se trabaja sobre el vector*/
+                /*llama al algoritmo - heap solo recibe el vector, no  necesita indices porque todoo se trabaja sobre el vector*/
             auto finheap = chrono::high_resolution_clock::now();
             chrono::duration<double> tiempoheap = finheap - inicioheap;
                 //toma la foto al finalizar y resta de las dos fotos de tiemo e imprime el resultado
