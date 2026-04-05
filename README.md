@@ -86,3 +86,6 @@ AVL:
 | AVL Tree  | O(n log n) always | O(n)          |  Slowest       |
 
 ---
+
+In adition we will be attacching the research document, where we planned and structure the proyect.
+LINK: https://simple-bonobo-446.notion.site/1er-Proyecto-Algots-32a03334a1d380c7aa0afd72fd2654c6?source=copy_link
